@@ -8,6 +8,30 @@
 	padding-right: 20px;
 }
 
+
+.booking-page h1 {
+	background: #2A88AD;
+	padding: 20px 20px 15px 20px;
+	margin: -20px -20px 20px -20px;
+	border-radius: 10px 10px 0 0;
+	-webkit-border-radius: 10px 10px 0 0;
+	-moz-border-radius: 10px 10px 0 0;
+	color: #fff;
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+	font: normal 30px 'Bitter', serif;
+	-moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+	-webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+	box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+	border: 1px solid #257C9E;	
+}
+
+.booking-page h1 > span {
+	display: block;
+	margin-top: 2px;
+	font: 13px Arial, Helvetica, sans-serif;	
+}
+
+
 @media screen and (max-width: 800px) {
 	.menu {
 		justify-content: space-between;
